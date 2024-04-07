@@ -22,7 +22,17 @@
     <nav id="hamburger-nav">
       <div class="logo">Frederico Fernandes</div>
       <div class="humbarger-menu">
-        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
     </nav>
     <script src="script.js"></script>
