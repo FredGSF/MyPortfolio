@@ -1,3 +1,1 @@
 # MyPortfolio
- 
-min 24
